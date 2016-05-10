@@ -3,7 +3,7 @@ MAINTAINER Cody Mize <me@codymize.com>
 
 ENV DEBIAN_FRONTEND noninteractive
 ENV DISPLAY unix$DISPLAY
-RUN apt-get update && apt-get install -y --no-install-recommends \
+RUN apt-get update && apt-get install -y \
 		virt-manager \
 		ssh \
 		ssh-askpass-gnome && \
